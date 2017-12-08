@@ -38,8 +38,9 @@ class HomePage extends Component {
     return(
       <Flexbox flexDirection="column" justifyContent="center" alignItems="center" >
       <h1 style={styles.headingText}>{this.state.name}</h1>
+      <br/>
       <Button raised color="primary" >
-        Sign Up
+        Sign Up - Coming Soon
       </Button>
       <p style={styles.bodyText}>{this.state.name} helps you buy and sell used bikes by providing <br/>access to exclusive listings and our network of users.</p>
       </Flexbox>

@@ -21,6 +21,8 @@ import LoginBackground from './backgrounds/login.jpg';
 import TeamBackground from './backgrounds/team.jpg';
 import AboutBackground from './backgrounds/about.jpg';
 
+
+
 const styles = {
     link: {
         textDecoration: 'none'

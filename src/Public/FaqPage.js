@@ -23,59 +23,37 @@ class FaqPage extends Component {
       <div style={{margin: '2em',}}>
       <ExpansionPanel>
       <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
-        <Typography >FAQ 1</Typography>
+        <Typography >What is Spokes?</Typography>
       </ExpansionPanelSummary>
       <ExpansionPanelDetails>
         <Typography>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
-          sit amet blandit leo lobortis eget.
+        Spokes is an online platform helping you buy and sell second hand bikes from trusted members of your community. 
+        It provides exclusive access to listings, restricted to your surrounding school area. 
         </Typography>
       </ExpansionPanelDetails>
     </ExpansionPanel>
     <ExpansionPanel>
         <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
-          <Typography >FAQ 2</Typography>
+          <Typography >How does Spokes work?</Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
           <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
-            sit amet blandit leo lobortis eget.
+          Members pay a small, annual fee that provides unlimited access to listings and community members.           
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
       <ExpansionPanel>
         <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
-          <Typography >FAQ 3</Typography>
+          <Typography >Why is there a fee?</Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
           <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
-            sit amet blandit leo lobortis eget.
+          Our fee allows us to help you find the perfect bicycle, without charging any commission on the sale. This ends 
+          up being much cheaper for our users! 
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
-      <ExpansionPanel>
-        <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
-          <Typography >FAQ 4</Typography>
-        </ExpansionPanelSummary>
-        <ExpansionPanelDetails>
-          <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
-            sit amet blandit leo lobortis eget.
-          </Typography>
-        </ExpansionPanelDetails>
-      </ExpansionPanel>
-      <ExpansionPanel>
-        <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
-          <Typography >FAQ 5</Typography>
-        </ExpansionPanelSummary>
-        <ExpansionPanelDetails>
-          <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
-            sit amet blandit leo lobortis eget.
-          </Typography>
-        </ExpansionPanelDetails>
-      </ExpansionPanel>
+
 
 
 

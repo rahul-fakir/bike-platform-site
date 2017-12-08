@@ -1,14 +1,23 @@
 // React
 import React, { Component } from 'react';
-import Card, { CardMedia, CardContent, CardHeader } from 'material-ui/Card';
+import Card, { CardMedia, CardContent } from 'material-ui/Card';
 import Typography from 'material-ui/Typography';
 
 import Flexbox from 'flexbox-react';
 
+
+import Alex from './team/Alex.jpg'
+import Brandon from './team/Brandon.jpg'
+import Claudio from './team/Claudio.jpg'
+import Jeremy from './team/Jeremy.png'
+import Keith from './team/Keith.jpg'
+import Linda from './team/Linda.jpg'
+
 const styles = {
     card: {
         marginRight: '1em',
-        marginLeft: '1em'
+        marginLeft: '1em',
+        width: '20em'
     },
     row: {
         marginTop: '1em'
@@ -32,52 +41,43 @@ class TeamPage extends Component {
     <Flexbox  flexDirection="row" style={styles.row}>
         <Card flex={1} style={styles.card}>
             <CardMedia
-                style={{height: 200}}
-                image="http://sunfieldfarm.org/wp-content/uploads/2014/02/profile-placeholder.png"
-                title="Contemplative Reptile"/>
+                style={{height: 250}}
+                image={Jeremy}
+                />
             <CardContent>
             <Typography type="headline" component="h2">
-            Member Name
+            Jeremy Falk
             </Typography>
             <Typography type="subheading" component="h6">
-                    Role
-                </Typography>
-                <Typography component="p">
-                    Member Description goes here
+                    Co-Project Lead 
                 </Typography>
             </CardContent>
         </Card>
         <Card flex={1} style={styles.card}>
             <CardMedia
-                style={{height: 200}}
-                image="http://sunfieldfarm.org/wp-content/uploads/2014/02/profile-placeholder.png"
-                title="Contemplative Reptile"/>
+                style={{height: 250}}
+                image={Linda}
+                />
             <CardContent>
             <Typography type="headline" component="h2">
-            Member Name
+            Linda Sun
             </Typography>
             <Typography type="subheading" component="h6">
-                    Role
-                </Typography>
-                <Typography component="p">
-                    Member Description goes here
+                    Co-Project Lead
                 </Typography>
             </CardContent>
         </Card>
         <Card flex={1} style={styles.card}>
             <CardMedia
-                style={{height: 200}}
-                image="http://sunfieldfarm.org/wp-content/uploads/2014/02/profile-placeholder.png"
-                title="Contemplative Reptile"/>
+                style={{height: 250}}
+                image={Alex}
+                />
             <CardContent>
             <Typography type="headline" component="h2">
-            Member Name
+            Alex Lee
             </Typography>
             <Typography type="subheading" component="h6">
-                    Role
-                </Typography>
-                <Typography component="p">
-                    Member Description goes here
+                    Chief Creative Officer
                 </Typography>
             </CardContent>
         </Card>
@@ -85,53 +85,45 @@ class TeamPage extends Component {
     <Flexbox  flexDirection="row" style={styles.row}>
     <Card flex={1} style={styles.card}>
         <CardMedia
-            style={{height: 200}}
-            image="http://sunfieldfarm.org/wp-content/uploads/2014/02/profile-placeholder.png"
-            title="Contemplative Reptile"/>
+            style={{height: 250}}
+            image={Claudio}
+            />
         <CardContent>
         <Typography type="headline" component="h2">
-        Member Name
+        Claudio Laratelli
         </Typography>
         <Typography type="subheading" component="h6">
-                Role
-            </Typography>
-            <Typography component="p">
-                Member Description goes here
+                Business Development Officer 
             </Typography>
         </CardContent>
     </Card>
     <Card flex={1} style={styles.card}>
         <CardMedia
-            style={{height: 200}}
-            image="http://sunfieldfarm.org/wp-content/uploads/2014/02/profile-placeholder.png"
-            title="Contemplative Reptile"/>
+            style={{height: 250}}
+            image={Brandon}
+            />
         <CardContent>
         <Typography type="headline" component="h2">
-        Member Name
+        Brandon Winner
         </Typography>
         <Typography type="subheading" component="h6">
-                Role
-            </Typography>
-            <Typography component="p">
-                Member Description goes here
+                Marketing Lead
             </Typography>
         </CardContent>
     </Card>
     <Card flex={1} style={styles.card}>
         <CardMedia
-            style={{height: 200}}
-            image="http://sunfieldfarm.org/wp-content/uploads/2014/02/profile-placeholder.png"
-            title="Contemplative Reptile"/>
+            style={{height: 250}}
+            image={Keith}
+            />
         <CardContent>
         <Typography type="headline" component="h2">
-        Member Name
+        Kieth Babitz
         </Typography>
         <Typography type="subheading" component="h6">
-                Role
+                Head of Analytics
             </Typography>
-            <Typography component="p">
-                Member Description goes here
-            </Typography>
+
         </CardContent>
     </Card>
 </Flexbox>
