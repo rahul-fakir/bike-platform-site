@@ -118,7 +118,7 @@ class TeamPage extends Component {
             />
         <CardContent>
         <Typography type="headline" component="h2">
-        Kieth Babitz
+        Keith Babitz
         </Typography>
         <Typography type="subheading" component="h6">
                 Head of Analytics
